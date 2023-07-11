@@ -1,5 +1,6 @@
 /* common shared styles */
 
+
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -9,7 +10,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    padding: 20px 43px;
+    padding: 10px 33px;
 
 }
 
@@ -151,21 +152,35 @@ main,
 /* latest deals section css */
 
 .deals-content{
-    display: flex;
-    padding-bottom: 120px;
-}
-
-.bg-image {
-    width: 700px;
+    background-image: url("../flower/Rectangle\ 9.png");
+    background-position: center;
+    background-size: cover;
     margin-left: 300px;
-    align-items: center;
-    justify-content: center;
+    margin-right: 250px;
+    margin-bottom: 120px;
+    height: 300px;
    
-}
-.deals-header-content{
-    text-align: center;
     
 }
+
+
+.deals-header-content{
+    text-align: center;
+    padding: 100px;
+    
+}
+.searching-button{
+    display: flex;
+    gap: 20px;
+}
+.client-email{
+    border-radius: 5px;
+    padding-left: 200px;
+    padding-right:50px;
+    padding-top: 30px;
+    border: none;
+}
+
 
 
 
